@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.post-contenedor {
+    background-color: #fff;
+    width: 435px; 
+    color: #262626;
+}
+
+.post-cabecera {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #b62222;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.nombre-usuario {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ubicacion {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.opciones {
+    font-size: 20px;
+}
+
+.imagen {
+    width: 100%;
+    display: block;
+    max-height: 300px;
+}
+
+.post-acciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #262626;
+}
+
+.icono {
+    margin-right: 10px;
+}
+
+.acciones-derecha .icono {
+    margin-right: 0;
+}
+
+.post-detalles {
+    padding: 0 15px 15px;
+    font-size: 14px;
+}
+
+.likes {
+    margin-bottom: 8px;
+}
+
+.texto-negrita {
+    font-weight: bold;
+}
